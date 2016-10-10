@@ -1,0 +1,11 @@
+search and replace in a file: sed -i 's/orig/new/g' file.txt
+  s = substitute, g = global (not just the first occurrence)
+  
+finding cpu utilization:
+  -top
+  -install systat package
+  -sar
+  
+uptime:
+how long your system has been running without reboot/crashes
+-uptime
