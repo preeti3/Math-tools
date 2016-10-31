@@ -1,1 +1,9 @@
 Unbiased estimator: expectation of estimate = value being estimated
+
+Markov's inequality:
+If X takes only non-negative values,
+P(X >= a) <= E(X)/a
+
+Chebyshev's inequality:
+P(|X - E(X)| >= kVar(X)|) <= 1/(k^2)
+
